@@ -55,3 +55,31 @@ img {
     font-weight: 400;
     color: rgb(51, 51, 51);
 }
+
+.foo-items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(206, 206, 206);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+li {
+    list-style: none;
+    padding: 0 30px 0 0;
+}
